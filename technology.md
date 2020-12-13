@@ -15,3 +15,9 @@ In order to create a classifier within Jupyter Notebook, we will be using the Sc
 
 ### Dashboard
 To display our findings we will be using Tableau.
+
+### COVID-19
+https://www.kaggle.com/johnjdavisiv/us-counties-covid19-weather-sociohealth-data
+
+### 2020 Election
+https://www.kaggle.com/unanimad/us-election-2020

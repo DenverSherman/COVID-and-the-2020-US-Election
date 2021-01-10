@@ -28,3 +28,7 @@ Primary meeting will take place weekly during Thursday class time
 - Analysis of the data using Machine Learning Model can be found in the "Analysis.ipynb" and "AlphabetSoupCharity.h5" files
 - Final database storage can be found in the "final_database.csv" file
 - Description of techonologies use can be found in the "technology.md" file
+
+## Second Segment Presentation
+
+https://docs.google.com/presentation/d/e/2PACX-1vTP0n4yQIcQ2OOcFKgNi3xtj7GjFxbRvgKEI2O1Yd9A2T7efM6UrFu-NI786WPtAq3ClL1kqwjduOUT/pub?start=false&loop=false&delayms=3000

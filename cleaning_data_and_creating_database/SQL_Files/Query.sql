@@ -55,5 +55,5 @@ LEFT JOIN
 		ON rep.state = dem.state
 		ORDER BY rep.state) AS state_votes) AS state_winner
 ON cc.state = state_winner.state
-WHERE cc.date = '2020-11-03'
+WHERE cc.date IN('2020-01-01', '2020-02-01', '2020-03-01', '2020-04-01', '2020-05-01', '2020-06-01', '2020-07-01', '2020-08-01', '2020-09-01', '2020-10-01', '2020-11-03')
 ORDER BY county;

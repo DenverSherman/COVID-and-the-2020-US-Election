@@ -31,8 +31,11 @@ In order to create the database for our project we used the previously mentioned
 3. All datatypes were examined and converted into more appropriate datatypes - for easier merging in PostgreSQL.
 4. After reding in the 2020 Election data and examining the shape and datatypes for the dataframe, it was determined that no changes had to be made.
 
-After cleaning the initial kaggle datasets and saving the resulting dataframes as csv files. We then began the actual creation of the Database in PostgreSQL.
+After cleaning the initial kaggle datasets and saving the resulting dataframes as csv files. We then began the actual creation of the Database in PostgreSQL. First a Database Schema based on an ERD diagram created in quickdatabasediagrams.com, both are shown below:
 
+![ERD Diagram]()
+
+![Schema]()
 
 
 ### Creating the Machine Learning Model

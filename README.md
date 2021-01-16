@@ -64,6 +64,7 @@ November 2020
 - Map of the United States that shows the sum of positive COVID-19 cases on Election Day and the winning party per state. The map is colored on a scale of lowest amount of cases to the highest.
 
 ![COVID-19 Cases on Election Day](https://github.com/DenverSherman/COVID-and-the-2020-US-Election/blob/main/tableau_images/final_images/covid-19_cases_on_election_day.PNG)
+![COVID-19 Cases on Election Day](./tableau_images/final_images/covid-19_cases_on_election_day.PNG)
 
 ## Questions
 

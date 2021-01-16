@@ -59,12 +59,28 @@ We have several visualizations demonstrating connections and assumptions we can 
 
 November 2020
 
-![COVID-19 Cases By Month](https://github.com/DenverSherman/COVID-and-the-2020-US-Election/blob/main/tableau_images/final_images/covid-19_cases_by_month.PNG)
+![COVID-19 Cases By Month](./tableau_images/final_images/covid-19_cases_by_month.png)
 
 - Map of the United States that shows the sum of positive COVID-19 cases on Election Day and the winning party per state. The map is colored on a scale of lowest amount of cases to the highest.
 
-![COVID-19 Cases on Election Day](https://github.com/DenverSherman/COVID-and-the-2020-US-Election/blob/main/tableau_images/final_images/covid-19_cases_on_election_day.png)
 ![COVID-19 Cases on Election Day](./tableau_images/final_images/covid-19_cases_on_election_day.png)
+
+- Line graphs demonstrating cumultaive COVID-19 cases and deaths separated by states won by each party
+
+![Cumulative Cases and Deaths](./tableau_images/final_images/cumulative_cases_and_deaths.png)
+
+- Chart of population statistics for United States based on winning party of the 2020 election. This shows how the majority voters relate to each other based on health, demographics, education, and economy.
+
+![Population Statistics](./tableau_images/final_images/population_statistics.png)
+
+- Map of United States visualizing the poplulation sizes of each county and color-coded by winning party of the Election. This map combined with the earlier maps helps to explain higher number of COVID-19 cases correlating to higher populations.
+
+![Population by County](./tableau_images/final_images/population_by_county.png)
+
+- Combined chart demonstrating cumulative deaths (line graph) and cumulative cases (bar chart) in the entire country from the very first reported case up to Election Day.
+
+![Total Cases & Deaths per Month](./tableau_images/final_images/total_cases_and_deaths_per_month.png)
+
 
 ## Questions
 

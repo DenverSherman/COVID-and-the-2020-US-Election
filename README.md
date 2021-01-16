@@ -24,19 +24,30 @@ https://www.kaggle.com/unanimad/us-election-2020
 
 ### Cleaning the Data and Creating the Database
 
-In order to create the database for our project we used the previously mentioned Kaggle datasets - one for election results and one containing COVID19 cases. Although these datasets were robust, for our purposes we followed the following steps to clean each (all of which are also detailed in the CLeaning_Data.ipynb file):
+In order to create the database for our project we used the previously mentioned Kaggle datasets - one for election results and one containing COVID19 cases. Although these datasets were robust, for our purposes we followed the following steps to clean each (all of which are also detailed in the "Cleaning_Data.ipynb" file):
 
 1. First, the COVID-19 dataset was loaded as a dataframe and reduced to columns that the team deemed important - 26 columns in total.
 2. All "NA" values were dropped from the new dataframe.
 3. All datatypes were examined and converted into more appropriate datatypes - for easier merging in PostgreSQL.
 4. After reding in the 2020 Election data and examining the shape and datatypes for the dataframe, it was determined that no changes had to be made.
 
-After cleaning the initial kaggle datasets and saving the resulting dataframes as csv files. We then began the actual creation of the Database in PostgreSQL. First a Database Schema based on an ERD diagram created in quickdatabasediagrams.com, both are shown below:
+After cleaning the initial kaggle datasets and saving the resulting dataframes as csv files the construction of the Database in PostgreSQL. First, two table schemas were created based on an ERD made in quickdatabasediagrams.com, which in turn was based on the datatypes established when cleaning the fiels in Jupyter notebook. Both are shown below:
 
 ![ERD Diagram]()
 
-![Schema]()
+![Covid Table Schema]()
 
+![Election Table Schema]()
+
+After the schemas for each dataset were created, the newly saved CSV files were imported into their respective tables as the last step in PostgreSQL.
+
+The final step to creating our final static database for use in the machine learning model and when creating our visualizations in Tableau involves merging the two tables created in PostgreSQL through a connection in Jupyter Notebook. As detailed in the "Final_database.ipynb" file, first we establish a connection with our PostgreSQL server and the appropriate tables using psycogpg2. Within the same cell in our jupyter notebook, we then execute a SQL based query to merge the aforementioned tables into one static source that gives us the stats for each state while also indicating which political party won on election day. All details from this process are shown below:
+
+![Establishing Connection]()
+
+![SQL Query]()
+
+![Building Static Database and Closing Connection]()
 
 ### Creating the Machine Learning Model
 

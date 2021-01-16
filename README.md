@@ -53,6 +53,18 @@ The final step to creating our final static database for use in the machine lear
 
 ### Creating Visualizations
 
+We have several visualizations demonstrating connections and assumptions we can make between COVID-19 data and Election data
+
+- We created a map of the United States that visualizes the amount of positive COVID-19 cases in each county. This map can be filtered by month to show the cumulative changes over time. The map also showcases the winning election results by county.
+
+November 2020
+
+![COVID-19 Cases By Month](https://github.com/DenverSherman/COVID-and-the-2020-US-Election/blob/main/tableau_images/final_images/covid-19_cases_by_month.PNG)
+
+- Map of the United States that shows the sum of positive COVID-19 cases on Election Day and the winning party per state. The map is colored on a scale of lowest amount of cases to the highest.
+
+![COVID-19 Cases on Election Day](https://github.com/DenverSherman/COVID-and-the-2020-US-Election/blob/main/tableau_images/final_images/covid-19_cases_on_election_day.PNG)
+
 ## Questions
 
 We hope to determine if there is any link between the amount of COVID-19 cases and deaths reported by county or state and how the same county or state participated in the 2020 election.

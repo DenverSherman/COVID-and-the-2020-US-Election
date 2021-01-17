@@ -55,7 +55,7 @@ We wanted to determine if a there was a connection between the state election ou
 
 Our desired outcome for the model was Winning Party, Dem or Rep. 
 
-We dropped the state, county, cate, Fips, total_population, latitude, and longitude fields to see if in order to prevent overfitting the model.
+We dropped the state, county, cate, Fips, total_population, latitude, and longitude fields to see if to prevent overfitting the model.
 
 The fields we used can be seen below:
 
@@ -67,7 +67,7 @@ We leveraged the OneHotEncoder function to change the categorical fields to nume
 
 Then we selected our target outcome and dropped the winning_party_Dem & wining_party_Rep columns.
 
-After spliting our data into tran & test, we set up a standard scaler instance.
+After splitting our data into train & test, we set up a standard scaler instance.
 
 ![drop_scaler](./tableau_images/jeff_images/drop_scaler.png)
 
@@ -76,7 +76,7 @@ We then set up our model with three hidden layers. We chose to use Relu for the 
 
 ![the_model](./tableau_images/jeff_images/the_model.png)
 
-We then ran the model, the accuracy started in the upper 60s and ended up with a 89% accuracy.
+We then ran the model, we achieved an 89% accuracy.
 
 ![running_the_model](./tableau_images/jeff_images/running_the_model.png)
 
@@ -84,7 +84,7 @@ Model results:
 
 ![model_results](./tableau_images/jeff_images/model_results.png)
 
-Overall the model seemed to be relatively accurate in predicting the outcome of the election.
+Overall, the model seemed to be relatively accurate in predicting the outcome of the election.
 
 There seems to be a substantial difference in a few fields we will cover in the visualization section that may explain this outcome.
 

@@ -51,6 +51,20 @@ The final step to creating our final static database for use in the machine lear
 
 ### Creating the Machine Learning Model
 
+We wanted to determine if a there was a connection between the state election outcome and the data in the individual counties. 
+
+Our desired outcome for the model was Winning Party, Dem or Rep. 
+
+We dropped the state, county, cate, Fips, total_population, latitude, and longitude fields to see if in order to prevent overfitting the model.
+
+The fields we used can be seen below:
+
+![fields_used_in_ML_Model](./tableau_images/final_images/covid-19_cases_by_month.png)
+
+We leveraged the OneHotEncoder function to change the categorical fields to numerical values.
+
+
+
 ### Creating Visualizations
 
 We have several visualizations demonstrating connections and assumptions we can make between COVID-19 data and Election data

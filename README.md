@@ -35,19 +35,19 @@ After cleaning the initial kaggle datasets and saving the resulting DataFrames a
 
 ![ERD Diagram](./cleaning_data_and_creating_database/Database_ERD.png)
 
-![Covid Table Schema](./cleaning_data_and_creating_database/covid_counties_table_schema.png)
+![Covid Table Schema](./cleaning_data_and_creating_database/covid_counties_table_schema.PNG)
 
-![Election Table Schema](./cleaning_data_and_creating_database/election_results_table_schema.png)
+![Election Table Schema](./cleaning_data_and_creating_database/election_results_table_schema.PNG)
 
 After the schemas for each dataset were created, the newly saved CSV files were imported into their respective tables as the last step in PostgreSQL.
 
 The final step to creating our final static database for use in the machine learning model and when creating our visualizations in Tableau involves merging the two tables created in PostgreSQL through a connection in Jupyter Notebook. As detailed in the "Final_database.ipynb" file, first we establish a connection with our PostgreSQL server and the appropriate tables using psycogpg2. Within the same cell in our jupyter notebook, we then execute a SQL based query to merge the aforementioned tables into one static source that gives us the stats for each state while also indicating which political party won on election day. All details from this process are shown below:
 
-![Establishing Connection](./cleaning_data_and_creating_database/establishing_postgres_connection.png)
+![Establishing Connection](./cleaning_data_and_creating_database/establishing_postgres_connection.PNG)
 
-![SQL Query](./cleaning_data_and_creating_database/table_join_query.png)
+![SQL Query](./cleaning_data_and_creating_database/table_join_query.PNG)
 
-![Building Static Database and Closing Connection](./cleaning_data_and_creating_database/closing_postgres_connection.png)
+![Building Static Database and Closing Connection](./cleaning_data_and_creating_database/closing_postgres_connection.PNG)
 
 ### Creating the Machine Learning Model
 

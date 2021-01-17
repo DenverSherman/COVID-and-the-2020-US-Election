@@ -2,11 +2,11 @@
 
 ## Purpose
 
-An analysis relating COVID-19 cases, demographics and mortality to the outcomes and participation in the 2020 US Election
+An analysis relating COVID-19 cases, demographics and mortality to the outcomes and participation in the 2020 US Election.
 
 ## Reason
 
-We selected this topic because the COVID-19 pandemic is our daily reality and the tactics to manage it is closely linked to politics
+We selected this topic because the COVID-19 pandemic is our daily reality and the tactics to manage it is closely linked to politics.
 
 ## Description
 
@@ -63,11 +63,9 @@ The fields we used can be seen below:
 
 We leveraged the OneHotEncoder function to change the categorical fields to numerical values.
 
-
-
 ### Creating Visualizations
 
-We have several visualizations demonstrating connections and assumptions we can make between COVID-19 data and Election data
+We have several visualizations demonstrating connections and assumptions we can make between COVID-19 data and Election data.
 
 - We created a map of the United States that visualizes the amount of positive COVID-19 cases in each county. This map can be filtered by month to show the cumulative changes over time. The map also showcases the winning election results by county.
 
@@ -77,9 +75,13 @@ November 2020
 
 - Map of the United States that shows the sum of positive COVID-19 cases on Election Day and the winning party per state. The map is colored on a scale of lowest amount of cases to the highest.
 
-![COVID-19 Cases on Election Day](./tableau_images/final_images/covid-19_cases_on_election_day.png)
+![COVID-19 Cases to Election Day](./tableau_images/final_images/covid-19_cases_on_election_day.png)
 
-- Line graphs demonstrating cumultaive COVID-19 cases and deaths separated by states won by each party
+- Map of the United States that shows the sum of positive COVID-19 cases on Election Day and the winning party per state. The map is colored on a scale of lowest amount of cases to the highest.
+
+![COVID-19 Infection Rate to Election Day](./tableau_images/final_images/cases_by_population.png)
+
+- Line graphs demonstrating cumulative COVID-19 cases and deaths separated by states won by each party
 
 ![Cumulative Cases and Deaths](./tableau_images/final_images/cumulative_cases_and_deaths.png)
 
@@ -91,10 +93,9 @@ November 2020
 
 ![Population by County](./tableau_images/final_images/population_by_county.png)
 
-- Combined chart demonstrating cumulative deaths (line graph) and cumulative cases (bar chart) in the entire country from the very first reported case up to Election Day.
+- Combined chart demonstrating new deaths (line graph) and new cases (bar chart) in the entire country from the very first reported case up to Election Day.
 
 ![Total Cases & Deaths per Month](./tableau_images/final_images/total_cases_and_deaths_per_month.png)
-
 
 ## Questions
 
@@ -103,8 +104,8 @@ We hope to determine if there is any link between the amount of COVID-19 cases a
 ## Team Communication Protocols
 
 Communicate through Slack messaging. 
-Use Slack to determine meeting dates and times that work for everyone
-Primary meeting will take place weekly during Thursday class time
+Use Slack to determine meeting dates and times that work for everyone.
+Primary meeting will take place weekly during Thursday class time. We also meet Sundays at 3.
 
 ## First Segment Submission
 

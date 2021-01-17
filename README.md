@@ -63,35 +63,6 @@ The fields we used can be seen below:
 
 We leveraged the OneHotEncoder function to change the categorical fields to numerical values and remerged them with the original data frame.
 
-<<<<<<< HEAD
-=======
-![one_hot_encoder](./tableau_images/jeff_images/one_hot_encoder.png)
-
-Then we selected our target outcome and dropped the winning_party_Dem & wining_party_Rep columns.
-
-After splitting our data into train & test, we set up a standard scaler instance.
-
-![drop_scaler](./tableau_images/jeff_images/drop_scaler.png)
-
-
-We then set up our model with three hidden layers. We chose to use Relu for the three hidden layers and sigmoid for the output layer.
-
-![the_model](./tableau_images/jeff_images/the_model.png)
-
-We then ran the model, we achieved an 89% accuracy.
-
-![running_the_model](./tableau_images/jeff_images/running_the_model.png)
-
-Model results:
-
-![model_results](./tableau_images/jeff_images/model_results.png)
-
-Overall, the model seemed to be relatively accurate in predicting the outcome of the election.
-
-There seems to be a substantial difference in a few fields we will cover in the visualization section that may explain this outcome.
-
-
->>>>>>> 13d73b65956671e13e9033109346700b4b47c5fc
 ### Creating Visualizations
 
 We have several visualizations demonstrating connections and assumptions we can make between COVID-19 data and Election data.

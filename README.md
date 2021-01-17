@@ -95,11 +95,11 @@ We have several visualizations demonstrating connections and assumptions we can 
 
 ![COVID-19 Cases By Month](./tableau_images/final_images/covid-19_cases_by_month.png)
 
-- Map of the United States that shows the sum of positive COVID-19 cases on Election Day and the winning party per state. The map is colored on a scale of lowest amount of cases to the highest.
+- Map of the United States that shows the sum of positive COVID-19 cases on Election Day and the winning party per state.
 
 ![COVID-19 Cases to Election Day](./tableau_images/final_images/covid-19_cases_on_election_day.png)
 
-- Line graphs demonstrating cumulative COVID-19 cases and deaths separated by states won by each party.
+- Map of cases based on population
 
 ![COVID-19 Infection to Election Day](./tableau_images/final_images/cases_by_population.png)
 
@@ -115,7 +115,7 @@ We have several visualizations demonstrating connections and assumptions we can 
 
 ![Population by County](./tableau_images/final_images/population_by_county.png)
 
-- Combined chart demonstrating cumulative deaths (line graph) and cumulative cases (bar chart) in the entire country from the very first reported case up to Election Day.
+- Combined chart demonstrating new deaths (line graph) and new cases (bar chart) reported in the entire country, separated by winning party, from the very first reported case up to Election Day. 
 
 ![Total Cases & Deaths per Month](./tableau_images/final_images/total_cases_and_deaths_per_month.png)
 

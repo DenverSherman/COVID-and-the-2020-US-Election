@@ -53,7 +53,7 @@ The final step to creating our final static database for use in the machine lear
 
 We wanted to determine if a there was a connection between the state election outcome and the data in the individual counties. 
 
-Our desired outcome for the model was Winning Party, Dem or Rep. 
+Our desired outcome for the model was Winning Party, Democrat (Dem) or Republican (Rep). 
 
 We dropped the state, county, cate, Fips, total_population, latitude, and longitude fields to see if to prevent overfitting the model.
 
@@ -63,13 +63,35 @@ The fields we used can be seen below:
 
 We leveraged the OneHotEncoder function to change the categorical fields to numerical values and remerged them with the original data frame.
 
+![one_hot_encoder](./tableau_images/jeff_images/one_hot_encoder.png)
+
+Then we selected our target outcome and dropped the winning_party_Dem & wining_party_Rep columns.
+
+After splitting our data into train & test, we set up a standard scaler instance.
+
+![drop_scaler](./tableau_images/jeff_images/drop_scaler.png)
+
+We then set up our model with three hidden layers. We chose to use Relu for the three hidden layers and sigmoid for the output layer.
+
+![the_model](./tableau_images/jeff_images/the_model.png)
+
+We then ran the model, we achieved an 89% accuracy.
+
+![running_the_model](./tableau_images/jeff_images/running_the_model.png)
+
+Model results:
+
+![model_results](./tableau_images/jeff_images/model_results.png)
+
+Overall, the model seemed to be relatively accurate in predicting the outcome of the election.
+
+There seems to be a substantial difference in a few fields we will cover in the visualization section that may explain this outcome.
+
 ### Creating Visualizations
 
 We have several visualizations demonstrating connections and assumptions we can make between COVID-19 data and Election data.
 
 - We created a map of the United States that visualizes the amount of positive COVID-19 cases in each county. This map can be filtered by month to show the cumulative changes over time. The map also showcases the winning election results by county.
-
-November 2020
 
 ![COVID-19 Cases By Month](./tableau_images/final_images/covid-19_cases_by_month.png)
 
@@ -77,11 +99,11 @@ November 2020
 
 ![COVID-19 Cases to Election Day](./tableau_images/final_images/covid-19_cases_on_election_day.png)
 
-- Map of the United States that shows the sum of positive COVID-19 cases on Election Day and the winning party per state. The map is colored on a scale of lowest amount of cases to the highest.
+- Line graphs demonstrating cumulative COVID-19 cases and deaths separated by states won by each party.
 
-![COVID-19 Infection Rate to Election Day](./tableau_images/final_images/cases_by_population.png)
+![COVID-19 Infection to Election Day](./tableau_images/final_images/cases_by_population.png)
 
-- Line graphs demonstrating cumulative COVID-19 cases and deaths separated by states won by each party
+- Line graphs demonstrating cumulative COVID-19 cases by population separated by states won by each party.
 
 ![Cumulative Cases and Deaths](./tableau_images/final_images/cumulative_cases_and_deaths.png)
 
@@ -93,7 +115,7 @@ November 2020
 
 ![Population by County](./tableau_images/final_images/population_by_county.png)
 
-- Combined chart demonstrating new deaths (line graph) and new cases (bar chart) in the entire country from the very first reported case up to Election Day.
+- Combined chart demonstrating cumulative deaths (line graph) and cumulative cases (bar chart) in the entire country from the very first reported case up to Election Day.
 
 ![Total Cases & Deaths per Month](./tableau_images/final_images/total_cases_and_deaths_per_month.png)
 
@@ -105,7 +127,7 @@ We hope to determine if there is any link between the amount of COVID-19 cases a
 
 Communicate through Slack messaging. 
 Use Slack to determine meeting dates and times that work for everyone.
-Primary meeting will take place weekly during Thursday class time. We also meet Sundays at 3.
+Primary meeting will take place weekly during Thursday class time. We also have met weekly, Sundays at 3pm.
 
 ## First Segment Submission
 

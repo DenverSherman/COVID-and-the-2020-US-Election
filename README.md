@@ -59,30 +59,30 @@ We dropped the state, county, cate, Fips, total_population, latitude, and longit
 
 The fields we used can be seen below:
 
-![fields_used_in_ML_Model](./tableau_images/final_images/covid-19_cases_by_month.png)
+![fields_used_in_ML_Model](./tableau_images/jeff_images/fields_used_in_ML_Model.png)
 
 We leveraged the OneHotEncoder function to change the categorical fields to numerical values and remerged them with the original data frame.
 
-![one_hot_encoder](./tableau_images/final_images/covid-19_cases_by_month.png)
+![one_hot_encoder](./tableau_images/jeff_images/one_hot_encoder.png)
 
 Then we selected our target outcome and dropped the winning_party_Dem & wining_party_Rep columns.
 
 After spliting our data into tran & test, we set up a standard scaler instance.
 
-![drop_scaler](./tableau_images/final_images/covid-19_cases_by_month.png)
+![drop_scaler](./tableau_images/jeff_images/drop_scaler.png)
 
 
 We then set up our model with three hidden layers. We chose to use Relu for the three hidden layers and sigmoid for the output layer.
 
-![the_model](./tableau_images/final_images/covid-19_cases_by_month.png)
+![the_model](./tableau_images/jeff_images/the_model.png)
 
 We then ran the model, the accuracy started in the upper 60s and ended up with a 89% accuracy.
 
-![running_the_model](./tableau_images/final_images/covid-19_cases_by_month.png)
+![running_the_model](./tableau_images/jeff_images/running_the_model.png)
 
 Model results:
 
-![model_results](./tableau_images/final_images/covid-19_cases_by_month.png)
+![model_results](./tableau_images/jeff_images/model_results.png)
 
 Overall the model seemed to be relatively accurate in predicting the outcome of the election.
 

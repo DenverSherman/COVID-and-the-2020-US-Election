@@ -61,8 +61,32 @@ The fields we used can be seen below:
 
 ![fields_used_in_ML_Model](./tableau_images/final_images/covid-19_cases_by_month.png)
 
-We leveraged the OneHotEncoder function to change the categorical fields to numerical values.
+We leveraged the OneHotEncoder function to change the categorical fields to numerical values and remerged them with the original data frame.
 
+![one_hot_encoder](./tableau_images/final_images/covid-19_cases_by_month.png)
+
+Then we selected our target outcome and dropped the winning_party_Dem & wining_party_Rep columns.
+
+After spliting our data into tran & test, we set up a standard scaler instance.
+
+![drop_scaler](./tableau_images/final_images/covid-19_cases_by_month.png)
+
+
+We then set up our model with three hidden layers. We chose to use Relu for the three hidden layers and sigmoid for the output layer.
+
+![the_model](./tableau_images/final_images/covid-19_cases_by_month.png)
+
+We then ran the model, the accuracy started in the upper 60s and ended up with a 89% accuracy.
+
+![running_the_model](./tableau_images/final_images/covid-19_cases_by_month.png)
+
+Model results:
+
+![model_results](./tableau_images/final_images/covid-19_cases_by_month.png)
+
+Overall the model seemed to be relatively accurate in predicting the outcome of the election.
+
+There seems to be a substantial difference in a few fields we will cover in the visualization section that may explain this outcome.
 
 
 ### Creating Visualizations

@@ -91,9 +91,8 @@ There seems to be a substantial difference in a few fields we will cover in the 
 
 We have several visualizations demonstrating connections and assumptions we can make between COVID-19 data and Election data.
 
-The link to our full Tableau workbook is here:
+#### The link to download our full Tableau workbook is here:
 
-![Link to Tableau Workbook](./COVID_ELECTION_ANALYSIS.twbx)
 https://github.com/DenverSherman/COVID-and-the-2020-US-Election/blob/main/COVID_Election_Analysis.twbx
 
 - We created a map of the United States that visualizes the amount of positive COVID-19 cases in each county. This map can be filtered by month to show the cumulative changes over time. The map also showcases the winning election results by county.
